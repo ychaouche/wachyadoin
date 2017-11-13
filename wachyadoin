@@ -2,8 +2,12 @@
 today=$(date +%Y-%m-%d)
 mkdir -p ~/NOTES/LOG 2>/dev/null
 logfile=~/NOTES/LOG/$today.log
-text=$(kdialog --textinputbox "Whachadoin ?" )
-now=$(date +%H:%M:%S)
-echo " * $now" >> "$logfile"
-echo "$text" | while read -r line; do echo "   $line" >> "$logfile"; done;
-echo >> "$logfile";
+while true
+do
+    text=$(kdialog --textinputbox "Wachyadoin ?" | sed 's/^/  /')
+    now=$(date +%H:%M:%S)
+    echo " * $now" >> "$logfile"
+    echo "$text" >> "$logfile";
+    echo >> "$logfile";
+    sleep 1800
+done
