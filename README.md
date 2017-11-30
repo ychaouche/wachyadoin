@@ -13,9 +13,9 @@ $ ./wachyadoin &
 You can launch this as soon as you open your DE session by adding it to your personal Autostart folder. In KDE it is ~/.kde/Autostart
 
 ```
-ychaouche@ychaouche-PC 09:46:31 ~/.kde/Autostart $ ls                                                                                                                                                                                                                          
-total 0                                                                                                                                                                                                                                                                        
-lrwxrwxrwx 1 ychaouche ychaouche 34 Nov 30 09:39 wachyadoin -> /home/ychaouche/SCRIPTS/wachyadoin                                                                                                                                                                              
+ychaouche@ychaouche-PC 09:46:31 ~/.kde/Autostart $ ls
+total 0
+lrwxrwxrwx 1 ychaouche ychaouche 34 Nov 30 09:39 wachyadoin -> /home/ychaouche/SCRIPTS/wachyadoin
 ychaouche@ychaouche-PC 09:46:31 ~/.kde/Autostart $  
 ```
 
