@@ -24,7 +24,7 @@ This is useful because you might forget to launch the script when your first log
 ## Background
 When you log your activities, at the end of the day, week, month, you can easily see where you put your efforts, where you wasted time, what was that URL again ? oh, if only I have saved it somewhere...
 
-If you wait till the end of your workday to record your thoughts or what you've been working on today, you may not remember all the details. This is where wachyadoin comes in handy : while you're at the task, it will act as a reminder to log anything that might be worth to remember.
+If you wait till the end of your workday to record your thoughts or what you've been working on today, you may not remember all the details. This is why wachyadoin is useful : while you're at the task, it will act as a reminder to log anything that might be worth to remember.
 
 So simple, yet so useful.
 
