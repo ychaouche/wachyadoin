@@ -2,12 +2,12 @@
 today=$(date +%Y-%m-%d)
 mkdir -p ~/NOTES/LOG 2>/dev/null
 logfile=~/NOTES/LOG/$today.log
+summaryfile=~/NOTES/LOG/worklog.summary
 while true
 do
-    text=$(kdialog --textinputbox "Wachyadoin ?" | sed 's/^/  /')
     now=$(date +%H:%M:%S)
     echo " * $now" >> "$logfile"
-    echo "$text" >> "$logfile";
-    echo >> "$logfile";
+    echo '  -' >> "$logfile";
+    emacs --no-splash +100000000000 $logfile +100000000000 $summaryfile
     sleep 1800
 done
